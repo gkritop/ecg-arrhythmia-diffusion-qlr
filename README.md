@@ -12,7 +12,7 @@ A three-stage hybrid generative pipeline for class-imbalanced ECG arrhythmia cla
 
 A 1D MobileNetV2 classifier is trained on the augmented dataset and evaluated across ten random seeds and four augmentation ratios, benchmarked against an unaugmented baseline, SMOTE, cVAE-only, and plain DDPM augmentation.
 
-## Honest summary of what the results show
+## Summary of what the results show
 
 All three deep generative methods (cVAE, DDPM, DDPM+QLR) **significantly improve Macro F1 over the unaugmented baseline** (large effect sizes, p < 0.02), while **SMOTE's improvement over baseline does not reach significance** (p = 0.64). Across the ten-seed comparison, **DDPM+QLR is not statistically distinguishable from plain DDPM** at any augmentation ratio — this work does not claim a quantum advantage. See the paper for the full statistical protocol, per-class breakdown, and the clinical framing of the results (in particular the reduction in false Ventricular alarms). This README mirrors that framing rather than a more favorable one.
 
