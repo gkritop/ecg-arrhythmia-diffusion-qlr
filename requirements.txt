@@ -1,0 +1,11 @@
+torch
+numpy
+pandas
+matplotlib
+seaborn
+pennylane
+wfdb
+imbalanced-learn
+scipy
+scikit-learn
+tqdm

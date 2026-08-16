@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following paper."
+title: "Addressing Class Imbalance in ECG Arrhythmia Classification Using Latent Diffusion and Quantum-Enhanced Generative Modeling"
+authors:
+  - family-names: "Kritopoulos"
+    given-names: "Georgios"
+    affiliation: "Department of Physics, University of Crete"
+  - family-names: "Neofotistos"
+    given-names: "Georgios"
+    affiliation: "John A. Paulson School of Engineering and Applied Sciences, Harvard University"
+  - family-names: "Barmparis"
+    given-names: "Georgios D."
+    affiliation: "Institute of Electronic Structure and Laser (IESL), FORTH"
+  - family-names: "Tsironis"
+    given-names: "Giorgos P."
+    affiliation: "Department of Physics, University of Crete"
+repository-code: "https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-17
+preferred-citation:
+  type: article
+  title: "Addressing Class Imbalance in ECG Arrhythmia Classification Using Latent Diffusion and Quantum-Enhanced Generative Modeling"
+  authors:
+    - family-names: "Kritopoulos"
+      given-names: "Georgios"
+    - family-names: "Neofotistos"
+      given-names: "Georgios"
+    - family-names: "Barmparis"
+      given-names: "Georgios D."
+    - family-names: "Tsironis"
+      given-names: "Giorgos P."
+  journal: "AI Med"
+  publisher:
+    name: "MDPI"
+  year: 2026
+  doi: "10.3390/aimed1010000" # TODO: replace with the final DOI once assigned at publication
